@@ -63,9 +63,9 @@
   
       // Get the current host from the window location
       const host = window.location.hostname;
-      console.log('Sending request to:', `http://${host}:11435/api/generate`);
+      console.log('Sending request to:', `http://${host}:11434/api/generate`);
       
-      const response = await fetch(`http://${host}:11435/api/generate`, {
+      const response = await fetch(`http://${host}:11434/api/generate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
